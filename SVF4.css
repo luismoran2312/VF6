@@ -774,12 +774,13 @@ button:focus {
 
 @media (max-width: 768px) {
   .bloque-valores {
-    padding: 20px 15px;
+    flex-direction: column;
+    align-items: center;
   }
-
+/*
   .lista-check li {
     font-size: 0.95rem;
-  }
+  }*/
 }
 
 /* --- Animaciones --- */
